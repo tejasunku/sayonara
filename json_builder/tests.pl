@@ -1,4 +1,4 @@
-:- module('json_builder/tests', [
+:- module(tests, [
     test_trim/0,
     test_split/0,
     test_split_json/0,
