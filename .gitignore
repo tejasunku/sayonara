@@ -1,0 +1,8 @@
+# Ciao Prolog compilation artifacts
+*.asr
+*.itf
+*.po
+
+# General
+.DS_Store
+*~
