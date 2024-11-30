@@ -1,4 +1,4 @@
-:- module(json_builder, [
+:- module('json_builder/utils', [
     trim_whitespace/2,
     split_by_whitespace/2,
     split_by_json_chars/2,

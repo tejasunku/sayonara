@@ -1,4 +1,4 @@
-:- module(json_builder_tests, [
+:- module('json_builder/tests', [
     test_trim/0,
     test_split/0,
     test_split_json/0,
@@ -6,7 +6,7 @@
 ]).
 
 :- use_package(assertions).
-:- use_module(library(json_builder/utils)).
+:- use_module('json_builder/utils').
 
 % Custom assertion for testing
 assertion(Goal) :- Goal -> true ; throw(assertion_failed(Goal)).
