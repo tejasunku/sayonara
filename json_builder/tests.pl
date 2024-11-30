@@ -6,7 +6,7 @@
 ]).
 
 :- use_package(assertions).
-:- use_module(json_builder_utils).
+:- use_module(library(json_builder/utils)).
 
 % Custom assertion for testing
 assertion(Goal) :- Goal -> true ; throw(assertion_failed(Goal)).

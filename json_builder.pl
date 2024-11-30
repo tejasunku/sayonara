@@ -1,13 +1,7 @@
-:- module(json_builder, [
-    trim_whitespace/2,
-    split_by_whitespace/2,
-    split_by_json_chars/2,
-    test_trim/0,
-    test_split/0,
-    test_split_json/0,
-    test_valid_json/0,
-    is_valid_json/1
-]).
+:- module(json_builder, []).
+
+:- use_module(library(json_builder/utils)).
+:- use_module(library(json_builder/tests)).
 :- use_package(assertions).
 :- use_package(dcg).
 :- use_module(library(lists)).
